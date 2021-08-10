@@ -1,0 +1,257 @@
+html{
+	scroll-behavior: smooth;
+}
+
+
+body{
+	margin: 0 auto;
+	background-color: #FFF5D1;
+}
+
+.nav{
+	background-color: orange;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.nav li{
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 40px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.nav .Acceuil{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.nav li a{
+	text-decoration: none;
+	color: white;
+}
+
+.nav .name p{
+	font-size: 27px;
+	font-weight:bold;
+	color: white;
+	
+}
+
+.nav .name{
+	margin-left:20px;
+	margin-top: 15px;
+	margin-bottom: 35px;
+	
+}
+
+.Vente{
+	margin-top: 140px;
+	margin-left: 10px;
+	margin-bottom:30px;
+}
+
+.Vente .Titre{
+	color: black;
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 1px;
+
+}
+.Vente .Titre p{
+	padding-bottom: 0px;
+	height: 14px;
+}
+
+.Vente .dessin{
+	width: 80px;
+	height: 9px;
+	background-color: orange;
+	margin-top:0px ;
+	border-radius: 5px;
+}
+
+main{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 60px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-basis: 200px;
+	font-family: cursive;
+
+}
+
+.Boite1{
+	padding: 8px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 17px;
+	
+}
+
+.Boite1 .image{
+	width: 390px;
+	height: 300px;
+	background-image: url(images/dress.jpg);
+	background-size: cover;
+	background-position:top ;
+}
+
+.Boite1 .titre{
+	margin-top: 10px;
+	height: 15px;
+	width: 400px;
+	
+}
+
+.Boite1 .titre p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+	opacity: 2;
+	
+}
+
+.Boite1 .description{
+	width: 400px;
+	height: 260px;
+	margin-top: 7px;
+}
+
+.Boite1 .Achat{
+	margin-bottom: 30px;
+	margin-left:230px;
+	background-color: orange;
+	width: 30%;
+	height: 10%;
+	border-radius: 30px;
+	margin-top: 2px;
+}
+
+.Boite1 .Achat p{
+	text-align: center;
+}
+
+.Achat a {
+	text-decoration: none;
+	color: black;
+}
+
+.Boite2{
+	margin: 18px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 17px;
+	
+}
+
+.Boite2 .image{
+	width: 390px;
+	height: 300px;
+	background-image: url(images/shoes.jpg);
+	background-size: cover;
+	background-position:bottom ;
+	
+}
+
+.Boite2 .titre{
+	margin-top: 10px;
+	height: 15px;
+	width: 400px;
+	
+}
+
+.Boite2 .titre p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+	opacity: 2;
+	
+}
+
+.Boite2 .description{
+	width: 400px;
+	height: 260px;
+	margin-top: 7px;
+}
+
+.Boite2 .Achat{
+	margin-bottom: 30px;
+	margin-left:230px;
+	background-color: orange;
+	width: 30%;
+	height: 10%;
+	border-radius: 30px;
+	margin-top: 2px;
+}
+
+.Boite2 .Achat p{
+	text-align: center;
+}
+
+
+
+.Boite3{
+	margin: 18px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 17px;
+
+}
+
+.Boite3 .image{
+	width: 390px;
+	height: 300px;
+	background-image: url(images/bag.jpg);
+	background-size: cover;
+	background-position:center ;
+	
+	
+}
+
+.Boite3 .titre{
+	margin-top: 10px;
+	height: 15px;
+	width: 400px;
+	
+}
+
+.Boite3 .titre p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+	opacity: 2;
+	
+}
+
+.Boite3 .description{
+	width: 400px;
+	height: 260px;
+	margin-top: 7px;
+}
+
+.Boite3 .Achat{
+	margin-bottom: 30px;
+	margin-left:230px;
+	background-color: orange;
+	width: 30%;
+	height: 10%;
+	border-radius: 30px;
+	margin-top: 2px;
+}
+
+.Boite3 .Achat p{
+	text-align: center;
+}
